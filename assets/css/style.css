@@ -1,0 +1,283 @@
+/*
+ * Title:  Rapp App landing page
+ * Author: XeroTheme Teams
+ */
+
+/* --------------------------------------------------------
+[Table of contents]
+1. Global styles
+2. Menu styles
+3.Banner
+4.App Feature
+5.About app
+6.Screenshot app
+7.Fun fact
+8.Price table
+9.Meet the team
+10.Testimonials
+11.FAQ section
+12.Recent blog
+13.Contact us
+14.Footer copyright
+15.Responsive
+16.Home version two
+17.Home version three
+18.Home version four
+19.Blog main
+20.Blog details
+21.Blog Light
+22.Blog Details Light
+
+[End table of contents]
+----------------------------------------------------------------------- */
+
+/* ------------------------------
+   Global styles
+---------------------------- */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  font-size: 100%;
+
+  font: inherit;
+
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+
+  border-spacing: 0;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+a,
+a:hover,
+a:focus {
+  cursor: pointer !important;
+
+  outline: none;
+
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+
+  color: #1e2c34;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* This only works with JavaScript, 
+        if it's not present, don't show loader */
+
+.no-js #loader {
+  display: none;
+}
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+p{
+  font-weight: 500;
+  font-size: 18px;
+}
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  background: url(../img/loader_ico.gif) center no-repeat #fff;
+}
+
+/* -------------------------------- 
+p
+menue style
+
+-------------------------------- */
+.active_sc {
+  background:#14149b;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=77, Color=#000000)"; /*IE 8*/
+  -moz-box-shadow: -3px 13px 24px -1px rgba(0, 0, 0, 0.3); /*FF 3.5+*/
+  -webkit-box-shadow: -3px 13px 24px -1px rgba(0, 0, 0, 0.3); /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+  box-shadow: -3px 13px 24px -1px rgba(0, 0, 0, 0.3); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=135, Color=#000000); /*IE 5.5-7*/
+  transition: box-shadow 2s;
+  padding-top: 10px !important;
+  z-index: 9999;
+  transition: 0.3s all;
+}
+
+  /*particle*/
+  #particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -8;
+  }
+  
+  /*video background*/
+  #video-background {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -9;
+  }
